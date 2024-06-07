@@ -1,0 +1,174 @@
+/*.header{
+    height: 100%;
+    margin: 10px auto;
+
+    background: url('/public/cover.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+    
+    width: 1000px;
+    padding: 10px;
+}
+/*.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+}*/
+
+.header-contents{
+    border: none;
+    color: brown;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: yellow;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 50px;
+    animation: fadeIn 3s;
+   
+    width: 160px;
+    
+}
+.header-contents-bt{
+    border: none;
+    color: brown;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: yellow;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 50px;
+    animation: fadeIn 3s;
+    width: 230px;
+    
+   
+}
+.header-contents-bt a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+   color: brown;
+   font-weight: 500;
+}
+.col{
+    width: 250px;
+}
+.header-contents:hover{
+    background-color: white;
+}
+.header-contents a{   
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+   color: brown;
+   font-weight: 500;
+   
+
+
+}
+.row{
+    max-width: 35%;
+    display: flex;
+    
+}
+#intro{
+    height: cal(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    top: -1rem;
+    position: absolute;
+  
+    margin-left: 45%;
+    z-index: -1;
+  
+    height: 450px;
+    width: 700px;
+    animation: fadeIn 5s;
+   
+    
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -110px;
+    
+}
+.hello{
+    font-size: 2.75rem;
+    font-weight: 150;
+    
+    color: white;
+    animation: fadeIn 3s;
+
+}
+.introName{
+    
+    color: yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+
+}
+.header hr{
+    width: 100%;
+    height: 2px;
+    margin-left: 20px ;
+margin-right: 50px;
+    background-color: gray;
+    border: none;
+  }
+
+@media (max-width:400px){
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+    .header .bg{
+          margin: 10px;
+          width: 380px;
+          height: 300px;
+    }
+      .introContent .hello{
+        margin-top: 100px;
+      }
+      .header-contents p{
+        display: none;
+    }
+   
+}
+
+/*@media (max-width:750px){
+   
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+
+}*/

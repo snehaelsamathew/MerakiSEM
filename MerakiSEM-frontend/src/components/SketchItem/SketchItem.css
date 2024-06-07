@@ -1,0 +1,64 @@
+.sketch-item{
+    
+    margin:40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgb(239, 225, 72);
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    height: 550px;
+   margin-left: 80px;
+   width: 100%;
+}
+.sketch-item-image{
+   
+
+    border-radius: 15px 15px 0px 0px;
+}
+.sketch-item-info{
+    padding: 20px;
+}
+.sketch-item-name-rating p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sketch-item-desc{
+    color: white;
+    font-size: 15px;
+}
+.food-item-price{
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.sketch-item-img-container{
+    position: relative;
+   
+}
+.sketch-item-img-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: yellow;
+    background-size: 20px;
+}
+.sketch-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: rgba(178, 78, 78, 0.782);
+}
+.sketch-item-counter img{
+    width: 30px;
+}
+.sketch-item-image{
+    width: 268px;
+}
